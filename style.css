@@ -1,0 +1,25 @@
+body {
+    background: black;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#XMLID_226_ {
+    animation: draw 15s forwards;
+}
+
+@keyframes draw {
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 400px;
+        stroke-dashoffset: 0;
+    }
+}
